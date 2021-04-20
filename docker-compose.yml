@@ -4,5 +4,5 @@ services:
     image: morbz/docker-web-redirect
     restart: always
     environment:
-      - VIRTUAL_HOST=myolddomain.net
-      - REDIRECT_TARGET=mydomain.net
+      - VIRTUAL_HOST=facebook.com
+      - REDIRECT_TARGET=google.com
